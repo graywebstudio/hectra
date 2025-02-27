@@ -100,9 +100,10 @@ export default function Home() {
       >
         <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
           <Image
-            src="/images/hec1.jpg"
+            src="/Images/hec1.jpg"
             alt="FCCU Diagram"
             fill
+            priority
             className="object-cover"
           />
           {/* Overlay gradient */}
@@ -368,9 +369,10 @@ export default function Home() {
          
             <div className="relative h-[300px] overflow-hidden">
               <Image
-                src={`/images/${item.image}.jpg`}
+                src={`/Images/${item.image}.jpg`}
                 alt={item.title}
                 fill
+                priority
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
       
