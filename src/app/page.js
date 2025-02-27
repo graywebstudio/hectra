@@ -13,11 +13,7 @@ const fadeIn = {
 
 
 export default function Home() {
-   const router = useRouter();
-  
-  useEffect(() => {
-    router.replace("/home");
-  }, []);
+   
   return (
      <div className=" text-white">
       {/* Hero Section */}
